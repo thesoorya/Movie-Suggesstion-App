@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Movie Suggesstion App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-data">
+        <input type="text" id="input" placeholder="search movie" />
+        <button id="btn">search</button>
+      </div>
+      <div class="result-container">
+        <div class="img-container">
+          <img src="" alt="" id="poster" />
+        </div>
+        <div id="output-data">
+          <p id="title"></p>
+          <p id="year"></p>
+          <p id="director"></p>
+          <p id="plot"></p>
+          <p id="cast"></p>
+          <p id="genre"></p>
+          <p id="ratings"></p>
+        </div>
+      </div>
+      <div id="errHandle">
+        <p id="message"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
